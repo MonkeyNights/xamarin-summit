@@ -1,9 +1,9 @@
 .default_color {
-    background-color: #29053C !important
+    background-color: #352086 !important
 }
 
 .default_color_icon, .default_color_icon a {
-    color: #29053C !important
+    color: #352086 !important
 }
 
 .font_plus {
@@ -35,15 +35,11 @@
 }
 
 .default_alt_color {
-    background-color: #EF363B !important
-}
-
-.pink.accent-3 {
-    background-color: #EF363B !important;
+    background-color: #EE1051 !important
 }
 
 .default_color_text {
-    color: #29053C !important
+    color: #352086 !important
 }
 
 .icon-block {
@@ -77,37 +73,20 @@
     margin-bottom: 80px; font-size: 2.3em; font-weight: 100;letter-spacing: -1px;
 }
 
-.logo-xs {
-    margin-top: 60px;border-bottom: 1px solid rgba(160,160,160,0.2);padding-bottom: 40px;
-}
-
-.cor1 {
-    background: #695076 !important;
-}
-
-.cor2 {
-    background: #533763 !important;
-}
-
-.cor3 {
-    background: #3E1E4F !important;
+.parana {
+    margin-top: 60px;border-bottom: 1px solid rgba(160,160,160,0.2);padding-bottom: 20px;
 }
 
 #index-banner {
-    min-height: 662px;
+    min-height: 632px;
     max-height: 864px;
     position: relative;
-    background-color: #29053C
+    background-color: #2196F3
 }
 
 #nav_f {
     box-shadow: none !important;
     -webkit-box-shadow: none !important
-}
-
-.default_text {
-    font-size: 1.6em;
-    font-weight: 300;
 }
 
 .text_h {
@@ -133,8 +112,7 @@
     .text_h_sub {
          padding: 1% 0;
     font-weight: 100;
-    color: white;
-    font-style: italic;
+    color: white
 	}
 
 
