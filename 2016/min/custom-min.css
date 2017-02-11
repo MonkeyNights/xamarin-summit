@@ -42,6 +42,18 @@
     color: #352086 !important
 }
 
+.default_card_text {
+    font-size: 0.9em;
+}
+
+.sobre_2016 {
+    height: 320px;
+    width: 50%;
+    display: block;
+    float: right;
+
+}
+
 .icon-block {
     padding: 0 15px
 }
