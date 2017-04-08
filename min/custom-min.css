@@ -28,6 +28,36 @@
     padding: 0 20px 0 20px;
 }
 
+.schedule-title {
+    font-size: 1.6em;
+    font-weight: 400;
+}
+
+.collection {
+
+}
+
+.tabs .tab a {
+    color: #29053C !important;
+    font-size: 1.4em !important;
+}
+
+.schedule-speaker-img {
+    width: 80px;
+    height: 80px;
+}
+
+.schedule-speaker {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.schedule-desc {
+    font-size: 1.4em;
+    line-height: 120%;
+    font-weight: 100;
+}
+
 @media screen and ( min-width: 768px ) {
   /* half-width cells for larger devices */
   .carousel-cell { width: 100%; }
@@ -82,11 +112,11 @@
 }
 
 .cor1 {
-    background: #695076 !important;
+    background: #CB2D32 !important;
 }
 
 .cor2 {
-    background: #533763 !important;
+    background: #CB2D32 !important;
 }
 
 .cor3 {
