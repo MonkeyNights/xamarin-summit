@@ -74,11 +74,11 @@ export const SPEAKERS = [
   ];
 
 export const PHOTOS = [
-    { path: '../../../assets/img/photos/01.jpg' },
+    // { path: '../../../assets/img/photos/01.jpg' },
     { path: '../../../assets/img/photos/02.jpg' },
     { path: '../../../assets/img/photos/03.jpg' },
     { path: '../../../assets/img/photos/05.jpg' },
     { path: '../../../assets/img/photos/07.jpg' },
-    { path: '../../../assets/img/photos/08.jpg' },
-    { path: '../../../assets/img/photos/10.jpg' },
+    // { path: '../../../assets/img/photos/08.jpg' },
+    // { path: '../../../assets/img/photos/10.jpg' },
 ];

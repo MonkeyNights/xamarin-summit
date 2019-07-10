@@ -4,7 +4,7 @@
     width: 100vw;
     content: '';
     z-index: 1;
-    background-color:#492A4E;
+    background-color:#7E2488;
   }
 
   .lead {
@@ -12,7 +12,12 @@
     font-weight: 300;
   }
 
+  .uk-button-primary {
+    background-color: #7E2488 !important;
+    color: #FFF !important;
+  }
+
   .uk-button-primary-speakers {
-    background-color: #492A4E !important;
+    background-color: #7E2488 !important;
     color: #FFF !important;
 }
