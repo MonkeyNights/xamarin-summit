@@ -21,15 +21,14 @@ export class HomeComponent implements OnInit {
     //  document.body.classList.add('wrap');
       document.body.classList.add('uk-background-norepeat');
       document.body.classList.add('uk-background-secondary');
-      document.body.classList.add('capiconf-uk-cover');
    }
 
   ngOnInit() {
 
   }
 
-  hasRealAvatar(element, index, array) { 
-    return (element.speaker.avatar !== '../../../assets/img/speakers/'); 
- } 
+  hasRealAvatar(element, index, array) {
+    return (element.speaker.avatar !== '../../../assets/img/speakers/');
+ }
 
 }
