@@ -1,0 +1,20 @@
+<header class="capiconf-uk-cover">
+    <div class="uk-container uk-light" style="background-color: rgba(26,9,43,0.85)">
+        <nav class="uk-navbar-transparent" data-uk-navbar>
+            <div class="uk-navbar-left">
+          <a href="/home"><img src="../../../assets/img/xamarin_summit_logo_invertido.svg" width="18%" alt="O maior encontro de desenvolvedores #Xamarin da América Latina, 04 e 05 de Outubro, Florianópolis, Brasil" /></a>
+            </div>
+            <div class="uk-navbar-right uk-visible@m">
+                <ul class="uk-navbar-nav">
+                    <li *ngFor="let page of pages" class="uk-active">
+                        <a title="{{ page.description }}" href="{{ page.route }}">{{ page.title }}</a>
+                    </li>
+                    <li>
+                        <a class="uk-navbar-toggle" data-uk-toggle data-uk-navbar-toggle-icon href="#offcanvas-nav"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<!--/HEADER-->
