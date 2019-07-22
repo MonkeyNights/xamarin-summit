@@ -25,6 +25,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
+              "src/past",
               "src/web.config",
               "src/android-chrome-192x192.png",
               "src/android-chrome-384x384.png",
@@ -37,7 +38,7 @@
               "src/site.webmanifest",
               "src/favicon.png",
               "src/browserslist",
-              "src/capiconf_open_graph_share.jpg"
+              "src/cover.jpg"
             ],
             "styles": [
               "src/styles.scss"
