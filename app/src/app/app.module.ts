@@ -14,6 +14,7 @@ import { TicketsComponent } from './features/tickets/tickets.component';
 import { TalksComponent } from './features/talks/talks.component';
 import { AgendaComponent } from './features/agenda/agenda.component';
 import { FaqComponent } from './features/faq/faq.component';
+import { LodgingComponent } from './features/lodging/lodging.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FaqComponent } from './features/faq/faq.component';
     TicketsComponent,
     TalksComponent,
     AgendaComponent,
-    FaqComponent
+    FaqComponent,
+    LodgingComponent
   ],
   imports: [
     BrowserModule,
