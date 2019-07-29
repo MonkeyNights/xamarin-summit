@@ -5,7 +5,7 @@ uk-section-large
 uk-position-z-index
 uk-position-relative">
   <!-- NAV -->
-  <div class="uk-position-top  capiconf-uk-cover">
+  <div class="uk-position-top  custom-uk-cover">
     <div class="uk-container">
       <nav class="uk-navbar-container uk-navbar-transparent" data-uk-navbar>
         <div class="uk-navbar-left">
@@ -95,10 +95,10 @@ uk-position-relative">
   </div>
 </section>
 <!-- speakers -->
-<!-- <section class="uk-padding-large capiconf-bg-white">
+<!-- <section class="uk-padding-large custom-bg-white">
   <div class="uk-container uk-container uk-text-center">
-    <h1 class="capiconf-heading">Rockstars Speakers</h1>
-    <p class="uk-text-large capiconf-text">
+    <h1 class="custom-heading">Rockstars Speakers</h1>
+    <p class="uk-text-large dart-text">
       Palestrantes e influenciadores que são reconhecidos nacionalmente como
       destaques em suas áreas de atuação.
     </p>
@@ -112,28 +112,28 @@ uk-position-relative">
                 <h5 class="uk-card-title uk-margin-remove-bottom">
                   {{ item.speaker.name }}
                 </h5>
-                <span class="uk-text-meta capiconf-text uk-text-center">{{
+                <span class="uk-text-meta dart-text uk-text-center">{{
                   item.speaker.position
                   }}</span>
               </div>
               <div class="uk-card-footer">
                   <span *ngFor="let social of item.speaker.social" >
                       <a *ngIf="social.url" href="{{ social.url }}" target="_blank">
-                        <span *ngIf="social.type === 'linkedin'" class="capiconf-text uk-margin-right	" uk-icon="linkedin"></span>
-                        <span *ngIf="social.type === 'facebook'" class="capiconf-text uk-margin-right	" uk-icon="facebook"></span>
-                        <span *ngIf="social.type === 'twitter'" class="capiconf-text uk-margin-right	" uk-icon="twitter"></span>
-                        <span *ngIf="social.type === 'github'" class="capiconf-text uk-margin-right	" uk-icon="github"></span>
+                        <span *ngIf="social.type === 'linkedin'" class="dart-text uk-margin-right	" uk-icon="linkedin"></span>
+                        <span *ngIf="social.type === 'facebook'" class="dart-text uk-margin-right	" uk-icon="facebook"></span>
+                        <span *ngIf="social.type === 'twitter'" class="dart-text uk-margin-right	" uk-icon="twitter"></span>
+                        <span *ngIf="social.type === 'github'" class="dart-text uk-margin-right	" uk-icon="github"></span>
                       </a>
                    </span>
               </div>
             </div>
       </div>
     </div>
-    <p class="uk-text-meta capiconf-text uk-text-center">
+    <p class="uk-text-meta dart-text uk-text-center">
 
     </p>
     <div
-    class="capiconf-text  uk-text-center uk-text-small uk-text-muted uk-section uk-section-small">
+    class="dart-text  uk-text-center uk-text-small uk-text-muted uk-section uk-section-small">
     <a
       href="/speakers"
       title="Conheça todos os palestrantes desta edição"
@@ -177,6 +177,30 @@ uk-position-relative">
     </div>
   </div>
 </section>
+<!-- CONVENÇA SEUS/SUAS LÍDERES -->
+<section class="uk-section-large" style="background: #4820CE url(assets/img/top.jpg)">
+  <div class="uk-container  uk-text-left">
+      <div uk-grid>
+          <div class="uk-width-1-1@m">
+            <h2>Por que o Xamarin Summit 2019?</h2>
+          </div>
+          <div class="uk-width-expand@m" style="font-size: 1.4em !important">
+            <p>
+              Conteúdo apresentado por palestrantes de empresas inovadoras e pioneiras do Brasil e do mundo.
+            </p>
+            <p>
+                O evento técnico com os palestrantes de maior senioridade do Brasil quando o assunto é Xamarin.
+            </p>
+            <p>
+                Ambiente propício para troca de experiências e contatos.
+            </p>
+            <p>
+                Palestras com cases reais e conteúdo técnico aplicável em seu dia a dia.
+            </p>
+        </div>
+      </div>
+  </div>
+</section>
 <!-- PHOTOS -->
 <section>
   <div class="uk-child-width-expand@s uk-padding-remove uk-margin-remove" uk-grid>
@@ -188,11 +212,11 @@ uk-position-relative">
   </div>
 </section>
 <app-tickets></app-tickets>
-<section class="uk-section uk-section-small uk-margin-remove uk-padding-remove capiconf-bg-white">
+<section class="uk-section uk-section-small uk-margin-remove uk-padding-remove custom-bg-white">
   <p class="uk-padding"></p>
   <header class="uk-text-center uk-margin uk-padding">
-    <h1 class="uk-heading-primary capiconf-heading">Patrocínio e Apoio</h1>
-    <p class="uk-width-3-5 uk-margin-auto capiconf-text">
+    <h1 class="uk-heading-primary custom-heading">Patrocínio e Apoio</h1>
+    <p class="uk-width-3-5 uk-margin-auto dart-text">
         Empresas, comunidades e organizações que apoiam o
         Xamarin Summit 2019
     </p>
@@ -204,14 +228,14 @@ uk-position-relative">
       </div>
       <div></div>
     </div>
-    <p class="capiconf-text uk-text-center uk-margin-top uk-text-meta	">Diamond</p>
+    <p class="dart-text uk-text-center uk-margin-top uk-text-meta	">Diamond</p>
     <p class="uk-padding"></p>
     <div class="uk-child-width-expand@s uk-text-center" uk-grid>
       <div>
       </div>
       <div>
         <a href="https://www.cesusc.edu.br/" target="_blank"><img width="55%" src="../../../assets/img/sponsors/cesusc_logo.png"></a>
-        <p class="capiconf-text uk-text-center uk-margin-top uk-text-meta	">Apoio</p>
+        <p class="dart-text uk-text-center uk-margin-top uk-text-meta	">Apoio</p>
       </div>
       <div>
       </div>
@@ -235,11 +259,11 @@ uk-position-relative">
   </div>
 </section>
 <!-- local -->
-<section class=" uk-section uk-section-small uk-margin-remove uk-padding-remove capiconf-bg-gray">
+<section class=" uk-section uk-section-small uk-margin-remove uk-padding-remove custom-bg-gray">
     <p class="uk-padding"></p>
   <header class="uk-text-center uk-margin uk-padding">
-    <h1 class="uk-heading-primary capiconf-heading">Localização</h1>
-    <p class="uk-width-3-5 uk-margin-auto capiconf-text">
+    <h1 class="uk-heading-primary custom-heading">Localização</h1>
+    <p class="uk-width-3-5 uk-margin-auto dart-text">
       O evento vai acontecer no auditório principal da Faculdade CESUSC, localizado <br>
       na Rodovia José Carlos Daux (SC-401), 9301 - Km 10, Santo Antônio de Lisboa - Florianópolis - Santa Catarina
     </p>
