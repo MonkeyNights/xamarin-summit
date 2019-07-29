@@ -1,5 +1,6 @@
 export const NAVPAGES = [
     { visible: false, title: 'INÍCIO', route: '/home', description: 'Ir para página inicial' },
+    { visible: false, title: 'HOSPEDAGEM', route: '/lodging', description: 'Dicas de hotel e descontos em hospedagem' },
     // { visible: false, title: 'CONHEÇA O EVENTO', route: '/about', description: 'Conheça o #CapiConf' },
      //{ visible: false, title: 'PALESTRANTES', route: '/speakers', description: 'Conheça os Palestrantes desta edição' },
      //{ visible: false, title: 'PALESTRAS', route: '/talks', description: 'Palestras do evento' },

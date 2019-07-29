@@ -1,6 +1,6 @@
 <app-navbar></app-navbar>
 <!-- HERO -->
-<section class="uk-section uk-section-large uk-section-secondary uk-margin-top capiconf-uk-cover">
+<section class="uk-section uk-section-large uk-section-secondary uk-margin-top custom-uk-cover">
   <div class="uk-container uk-container">
     <h1>ROCKSTARS SPEAKERS</h1>
     <p class="uk-text-large">Conheça os palestrantes da edição de 2019 do #CapiConf</p>
@@ -24,24 +24,24 @@
                 <h5 class="uk-card-title uk-margin-remove-bottom">
                   {{ item.speaker.name }}
                 </h5>
-                <span class="uk-text-meta capiconf-text uk-text-center">{{
+                <span class="uk-text-meta dart-text uk-text-center">{{
                   item.speaker.bio
                   }}</span>
               </div>
               <div class="uk-card-footer">
                 <span *ngFor="let social of item.speaker.social" >
                 <a *ngIf="social.url" href="{{ social.url }}" target="_blank">
-                  <span *ngIf="social.type === 'linkedin'" class="capiconf-text uk-margin-right	" uk-icon="linkedin"></span>
-                  <span *ngIf="social.type === 'facebook'" class="capiconf-text uk-margin-right	" uk-icon="facebook"></span>
-                  <span *ngIf="social.type === 'twitter'" class="capiconf-text uk-margin-right	" uk-icon="twitter"></span>
-                  <span *ngIf="social.type === 'github'" class="capiconf-text uk-margin-right	" uk-icon="github"></span>
+                  <span *ngIf="social.type === 'linkedin'" class="dart-text uk-margin-right	" uk-icon="linkedin"></span>
+                  <span *ngIf="social.type === 'facebook'" class="dart-text uk-margin-right	" uk-icon="facebook"></span>
+                  <span *ngIf="social.type === 'twitter'" class="dart-text uk-margin-right	" uk-icon="twitter"></span>
+                  <span *ngIf="social.type === 'github'" class="dart-text uk-margin-right	" uk-icon="github"></span>
                 </a>
               </span>
               </div>
             </div>
       </div>
     </div>
-    <p class="uk-text-meta capiconf-text uk-text-center">
+    <p class="uk-text-meta dart-text uk-text-center">
       * Palestrantes confirmados até o momento!
     </p>
   </div>

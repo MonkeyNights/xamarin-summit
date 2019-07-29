@@ -2,7 +2,7 @@
 @import "../node_modules/uikit/src/scss/mixins-theme.scss";
 @import "../node_modules/uikit/src/scss/uikit-theme.scss";
 
-.capiconf-uk-cover {
+.custom-uk-cover {
     background-image: url("assets/img/cover.jpg");
     height: 100%;
     background-position: center;
@@ -10,11 +10,11 @@
     background-size: cover;
 }
 
-.capiconf-bg-primary {
+.custom-bg-primary {
     background-color: #4721CE;
 }
 
-.capiconf-bg-assent {
+.custom-bg-assent {
     background-color: #4721CE;
 }
 
@@ -23,20 +23,24 @@
     justify-content: center;
 }
 
-.capiconf-bg-white {
+.custom-bg-white {
     background-color: #fff;
 }
 
-.capiconf-bg-gray {
+.custom-bg-gray {
     background-color: #f6f6f6;
 }
 
 
-.capiconf-heading {
+.custom-heading {
     color: #4721CE !important;
 }
 
-.capiconf-text {
+.custom-heading-dark {
+  color: #002222  !important;
+}
+
+.dart-text {
     color: #666  !important;
 }
 
