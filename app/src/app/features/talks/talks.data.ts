@@ -376,4 +376,33 @@ export const TALKS = [
           ]
       }
     },
+    {
+        title: 'Technical debt em Xamarin',
+        tags:[],
+        description: 'Analizaremos as causas e o impacto de technical debt em projetos Xamarin, como pagar a dívida, como identificá-la e como evitá-la.',
+        speaker: {
+            name: 'Diego Bonilla',
+            avatar: '../../../assets/img/speakers/diego.jpg',
+            bio: 'Uruguaio, co-fundador e CEO de Nareia, organizador do @XamarinUY',
+            position: 'CEO @ Nareia',
+            social: [
+                {
+                    url: 'https://www.linkedin.com/in/diebonilla/',
+                    type: 'linkedin'
+                },
+                {
+                    url: 'https://twitter.com/dbonillanareia',
+                    type: 'twitter'
+                },
+                {
+                    url: '',
+                    type: 'facebook'
+                },
+                {
+                    url: 'https://github.com/dbonillanareia',
+                    type: 'github'
+                }
+            ]
+        }
+      },
 ]
