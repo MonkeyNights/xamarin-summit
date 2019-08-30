@@ -27,6 +27,7 @@
               "src/assets",
               "src/past",
               "src/web.config",
+              "src/_redirects",
               "src/android-chrome-192x192.png",
               "src/android-chrome-384x384.png",
               "src/apple-touch-icon.png",
@@ -47,7 +48,7 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/uikit/dist/js/uikit.min.js",
               "node_modules/uikit/dist/js/uikit-icons.min.js"
-            ]
+            ],
           },
           "configurations": {
             "production": {
