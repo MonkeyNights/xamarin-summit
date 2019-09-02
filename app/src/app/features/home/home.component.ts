@@ -16,11 +16,7 @@ export class HomeComponent implements OnInit {
   photos = PHOTOS;
 
   constructor() {
-    // tslint:disable-next-line:max-line-length
       document.body.classList.add('uk-light');
-    //  document.body.classList.add('wrap');
-      document.body.classList.add('uk-background-norepeat');
-      document.body.classList.add('uk-background-secondary');
    }
 
   ngOnInit() {
