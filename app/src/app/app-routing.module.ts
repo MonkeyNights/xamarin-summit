@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'lodging', component: LodgingComponent },
   { path: 'speakers', component: SpeakersComponent },
   { path: 'talks', component: TalksComponent },
-  //{ path: 'agenda', component: AgendaComponent },
+  { path: 'agenda', component: AgendaComponent },
   //{ path: 'faq', component: FaqComponent },
   { path: '**', redirectTo: '/home' },
 ];

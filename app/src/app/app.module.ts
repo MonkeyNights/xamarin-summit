@@ -15,6 +15,7 @@ import { TalksComponent } from './features/talks/talks.component';
 import { AgendaComponent } from './features/agenda/agenda.component';
 import { FaqComponent } from './features/faq/faq.component';
 import { LodgingComponent } from './features/lodging/lodging.component';
+import { TeamComponent } from './features/team/team.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { LodgingComponent } from './features/lodging/lodging.component';
     TalksComponent,
     AgendaComponent,
     FaqComponent,
-    LodgingComponent
+    LodgingComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,
