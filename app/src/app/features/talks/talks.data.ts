@@ -28,7 +28,7 @@ export const TALKS = [
             ]
         }
     },
-    {
+    /* {
       title: 'Desvendando os mistérios dos Bindings',
       tags:[],
       description: 'Vamos repassar algumas verdades e alguns mitos sobre Bindings de código nativo para a plataforma Xamarin.',
@@ -56,7 +56,7 @@ export const TALKS = [
               }
           ]
       }
-    },
+    } , */
     {
       title: 'Fabulous - Xamarin Forms com Elmish',
       tags:[],
