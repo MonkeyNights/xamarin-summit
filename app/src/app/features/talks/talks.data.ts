@@ -405,4 +405,33 @@ export const TALKS = [
             ]
         }
       },
+      {
+        title: 'Desafios de uma aplicação de trading utilizando Xamarin.Forms',
+        tags:[],
+        description: 'Nesse papo vamos falar um pouco sobre as dificuldades e desafios de se desenvolver uma plataforma de alta performance utilizando Xamarin.Forms, com um pouco de boas práticas de desenvolvimento e também o desafio de desenvolver um aplicativos para 4 plataformas reaproveitando o que é possível e desenvolvimento para MacOS (até então na sua versão beta)',
+        speaker: {
+            name: 'Eduardo de Araujo Mingues',
+            avatar: '../../../assets/img/speakers/eduardo.png',
+            bio: 'Desenvolvedor de software a mais 8 anos destes mais de 3 anos dedicados em Xamarin.Forms e 2 anos trabalhando com plataformas de alta performance para o mundo trading, adepto as práticas ágeis e entusiasta deep learning.',
+            position: 'Analista de Sistemas, Tecfinance @ XP Investimentos',
+            social: [
+                {
+                    url: 'https://br.linkedin.com/in/eduardo-araujo-mingues-52734b53',
+                    type: 'linkedin'
+                },
+                {
+                    url: '',
+                    type: 'twitter'
+                },
+                {
+                    url: 'https://pt-br.facebook.com/eduardo.mingues',
+                    type: 'facebook'
+                },
+                {
+                    url: 'https://github.com/emingues',
+                    type: 'github'
+                }
+            ]
+        }
+      }
 ]
