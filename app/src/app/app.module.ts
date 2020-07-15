@@ -16,6 +16,7 @@ import { AgendaComponent } from './features/agenda/agenda.component';
 import { FaqComponent } from './features/faq/faq.component';
 import { LodgingComponent } from './features/lodging/lodging.component';
 import { TeamComponent } from './features/team/team.component';
+import { StartComponent } from './features/2020/start/start.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { TeamComponent } from './features/team/team.component';
     AgendaComponent,
     FaqComponent,
     LodgingComponent,
-    TeamComponent
+    TeamComponent,
+    StartComponent
   ],
   imports: [
     BrowserModule,
