@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PHOTOS } from '../../home/home.data';
+import { TALKS20 } from './speaker.data';
 
 @Component({
   selector: 'app-start',
@@ -9,6 +10,11 @@ import { PHOTOS } from '../../home/home.data';
 export class StartComponent implements OnInit {
 
   photos = PHOTOS;
+  speakers = TALKS20.sort(function(a, b){
+    if(a.speaker.name < b.speaker.name) { return -1; }
+    if(a.speaker.name > b.speaker.name) { return 1; }
+    return 0;
+  });
 
   constructor() { }
 
