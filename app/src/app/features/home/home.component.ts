@@ -11,8 +11,12 @@ import { TALKS } from '../talks/talks.data';
 })
 export class HomeComponent implements OnInit {
 
-  pages = NAVPAGES;
-  speakers = shuffle(TALKS.filter(this.hasRealAvatar));
+  speakers = TALKS.sort(function(a, b){
+    if(a.speaker.name < b.speaker.name) { return -1; }
+    if(a.speaker.name > b.speaker.name) { return 1; }
+    return 0;
+  });
+
   photos = PHOTOS;
 
   constructor() {
@@ -20,7 +24,6 @@ export class HomeComponent implements OnInit {
    }
 
   ngOnInit() {
-
   }
 
   hasRealAvatar(element, index, array) {

@@ -1,13 +1,24 @@
 import { Component, OnInit } from '@angular/core';
-import { TALKS } from './talks.data';
+import { shuffle } from 'src/app/utils/array.utils';
+import { TALKS } from '../../talks/talks.data';
+import { PHOTOS } from '../../home/home.data';
 
 @Component({
-  selector: 'app-talks',
-  templateUrl: './talks.component.html',
-  styleUrls: ['./talks.component.scss']
+  selector: 'app-start',
+  templateUrl: './start.component.html',
+  styleUrls: ['./start.component.scss']
 })
-export class TalksComponent implements OnInit {
+export class Start2019Component implements OnInit {
 
+  speakers = TALKS.sort(function(a, b){
+    if(a.speaker.name < b.speaker.name) { return -1; }
+    if(a.speaker.name > b.speaker.name) { return 1; }
+    return 0;
+  });
+
+  photos = PHOTOS;
+
+  
   talks = TALKS.sort(function(a, b){
     if(a.title < b.title) { return -1; }
     if(a.title > b.title) { return 1; }
@@ -46,9 +57,15 @@ export class TalksComponent implements OnInit {
   'Front-end',
   'Cases'];
 
-  constructor() { }
+  constructor() {
+    document.body.classList.add('uk-light');
+   }
 
   ngOnInit() {
+  }
+
+  hasRealAvatar(element, index, array) {
+    return (element.speaker.avatar !== '../../../assets/img/speakers/');
   }
 
 }
