@@ -17,6 +17,7 @@ import { FaqComponent } from './features/faq/faq.component';
 import { LodgingComponent } from './features/lodging/lodging.component';
 import { TeamComponent } from './features/team/team.component';
 import { StartComponent } from './features/2020/start/start.component';
+import { Start2019Component } from './features/2019/start/start.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { StartComponent } from './features/2020/start/start.component';
     FaqComponent,
     LodgingComponent,
     TeamComponent,
-    StartComponent
+    StartComponent,
+    Start2019Component
   ],
   imports: [
     BrowserModule,
