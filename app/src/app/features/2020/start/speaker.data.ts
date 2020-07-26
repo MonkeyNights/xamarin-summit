@@ -71,5 +71,31 @@ export const TALKS20 = [
             ]
         }
     }
+    ,
+    {
+        title: '',
+        tags:[],
+        description: '',
+        speaker: {
+            name: 'Ione Souza Junior',
+            avatar: '../../../assets/img/speakers/ione.jpg',
+            bio: 'Desenvolvedor mobile, entusiasta de Xamarin. Motivado por desafios e por contribuir com a comunidade. Pai de cachorro, viciado em código & café.',
+            position: 'Desenvolvedor Mobile @ Mercos',
+            social: [
+                {
+                    url: 'https://twitter.com/ionixjunior',
+                    type: 'twitter'
+                },
+                {
+                    url: 'https://github.com/ionixjunior',
+                    type: 'github'
+                },
+                {
+                    url: 'https://www.linkedin.com/in/ionixjunior/',
+                    type: 'linkedin'
+                }
+            ]
+        }
+    }
 
 ]
