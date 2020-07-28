@@ -54,7 +54,7 @@ export const TALKS20 = [
             name: 'Nicolas Milcoff',
             avatar: '../../../assets/img/speakers/nico.png',
             bio: 'Nicolas is a mobile development expert. He works as CTO at XABLU and he is also a Microsoft MVP who actively contributes to / maintains open source projects in the mobile space like MvvmCross. Nico is also an international speaker and trainer who loves to push forward the technologies he works with.',
-            position: 'CEO @ Nareia',
+            position: 'CTO @ XABLU',
             social: [
                 {
                     url: 'https://twitter.com/nmilcoff',
