@@ -51,6 +51,13 @@
             ]
           },
           "configurations": {
+            "en": {
+              "aot": true,
+              "i18nFile": "src/app/features/2020/locale/messages.en.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "en",
+              "i18nMissingTranslation": "error"
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -85,6 +92,9 @@
           "configurations": {
             "production": {
               "browserTarget": "gab:build:production"
+            },
+            "en": {
+              "browserTarget": "gab:build:en"
             }
           }
         },
