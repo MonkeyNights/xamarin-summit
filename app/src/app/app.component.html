@@ -1,2 +1,6 @@
-
+<ng-container *ngFor="let language of languageList">
+  <a href="/{{language.code}}/">
+    <button class="language-button">{{language.label}}</button>
+  </a>
+</ng-container>
 <router-outlet></router-outlet>

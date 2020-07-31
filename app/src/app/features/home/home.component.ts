@@ -19,6 +19,8 @@ export class HomeComponent implements OnInit {
 
   photos = PHOTOS;
 
+  pages = NAVPAGES;
+
   constructor() {
       document.body.classList.add('uk-light');
    }

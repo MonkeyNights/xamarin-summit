@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="05aaf1cd8f2cbbacf6fa92542db10df1e9451cd8" datatype="html">
+        <source>O mais tradicional encontro de pessoas desenvolvedoras Xamarin da América Latina</source>
+        <target>Latin America's most traditional gathering of Xamarin developers</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="97053b6bc1820f957467262be2955aa5f85f635a" datatype="html">
+        <source>De 10 até 14 de Agosto, online e de graça!</source>
+        <target>From August 10th through August 14th, online and for free!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="792121e5cf21a1b1b899e3a2d020436a8fc5c7a8" datatype="html">
+        <source>Garanta a inscrição agora!</source>
+        <target>Register now!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="efaa9799856d06756145484c2fa24a248c9e37b6" datatype="html">
+        <source>Comunidade e Networking</source>
+        <target>Community and Networking</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a4baa742320e6295c3095984ee365c9bf6be3009" datatype="html">
+        <source>O Xamarin Summit é um grande encontro da comunidade brasileira pessoas desenvolvedoras Xamarin, permitindo um ambiente totalmente favorável a troca de experiências e networking.</source>
+        <target>Xamarin Summit is a great meeting of the Brazilian Xamarin developers community, allowing a totally favorable environment for the exchange of experiences and networking.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0ef7fc02669606b05d2046febec5915c7802a944" datatype="html">
+        <source>Dias</source>
+        <target>Days</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0a18738589aca77b0dcecaa66ceca5524089de10" datatype="html">
+        <source>Horas</source>
+        <target>Hours</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e7a4ac4717f289346af23699ae984f9531411e9d" datatype="html">
+        <source>Minutos</source>
+        <target>Minutes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d361009698699c7dcc61fa524452f04ebadefe3a" datatype="html">
+        <source>Segundos</source>
+        <target>Seconds</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16167b89c3812da2fe344c3c146fc97849b54ea7" datatype="html">
+        <source>Pessoas palestrantes</source>
+        <target>Speakers</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fd93505084a0f92d3b699dbcb60f96cf7ac5013c" datatype="html">
+        <source>Palestrantes e pessoas influenciadoras que são reconhecidos nacionalmente como destaques em suas áreas de atuação.</source>
+        <target>Speakers and influencers who are nationally recognized for standing out in their areas of expertise.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="27c1da292f23c9e6d1adb2bf73f52f762877a6a6" datatype="html">
+        <source>Palestrantes confirmados até o momento!</source>
+        <target>Speakers confirmed so far!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d7c15b7c4c33042cda0034d9ba525070db186e08" datatype="html">
+        <source>Por que o Xamarin Summit?</source>
+        <target>Why Xamarin Summit?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e769538711b350f5b8dafa076537784fe587734d" datatype="html">
+        <source>Conteúdo apresentado por palestrantes de empresas inovadoras e pioneiras do Brasil e do mundo.</source>
+        <target>Content presented by speakers from innovative and pioneering companies in Brazil and the world.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="55cd4a91c987413506d6a37a4d4735a7962935ea" datatype="html">
+        <source>O evento técnico com os palestrantes de maior senioridade do Brasil quando o assunto é Xamarin.</source>
+        <target>The technical event with the most senior speakers in Brazil when it comes to Xamarin.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="18c4d4c20b0f5f152025ddf2ce7fcb0ba3bc5156" datatype="html">
+        <source>Ambiente propício para troca de experiências e contatos.</source>
+        <target>Favorable environment for exchanging experiences and contacts.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f2a3129aac2bed6424293bb65126ad405b0561d6" datatype="html">
+        <source>Palestras com cases reais e conteúdo técnico aplicável em seu dia a dia.</source>
+        <target>Talks with real cases and technical content that you can apply in your daily work routine.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b978357d4833b727da307f9486c73dacf91760d8" datatype="html">
+        <source>Apoio</source>
+        <target>Supporters</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">177</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a1fc9aff9110c3833fa5bb65051efa15b80c610f" datatype="html">
+        <source>Empresas, comunidades e organizações que apoiam o Xamarin Summit Live</source>
+        <target>Companies, developer communities and organizations that support Xamarin Summit Live</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">178</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="421a4759502308f6a26eaf121bfb174023e81f70" datatype="html">
+        <source>Organizadores</source>
+        <target>Event hosts</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">201</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e4ab226b9e8610c4943d8e90d71057593737e2fb" datatype="html">
+        <source>O Xamarin Summit é organizado com muito ❤️ por um time incrível de pessoas.</source>
+        <target>Xamarin Summit is organized very ❤️ by an incredible team of people.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">202</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="26e3ffc2e387bcfa5b523d9f86a09e73a13471d4" datatype="html">
+        <source>Informações sobre Parcerias e Patrocínio</source>
+        <target>Partnership and Sponsorship Information</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">314</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dd242463f340f5475af553cf64466d1100439f91" datatype="html">
+        <source>Contato</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">318</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="40e21595405de5d2ceac1097c27be471fa1a017f" datatype="html">
+        <source>Inscrições</source>
+        <target>Registrations</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">321</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="48e8f44996f98139065710b1626376b8bfe02c45" datatype="html">
+        <source>Código de Conduta</source>
+        <target>Code of Conduct</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">324</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bd85b952dcf5eb9696530d93acfa949807982777" datatype="html">
+        <source>Edições anteriores</source>
+        <target>Past editions</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">330</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="730c5b2f853d4b114fa39cf97b10a6c64e811829" datatype="html">
+        <source>Social Media</source>
+        <target>Social Media</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/features/2020/start/start.component.html</context>
+          <context context-type="linenumber">350</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
