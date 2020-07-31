@@ -191,12 +191,56 @@ export const TALKS20 = [
             bio: "Atuando a 9 anos em produtos de tecnologia e atualmente ajudando o brasileiro a investir melhor em renda variável",
             position: 'Product Manager @ XP Inc.',
             social: [
-                // {
-                //     url: 'https://github.com/renantoniolo?tab=repositories',
-                //     type: 'github'
-                // },
                 {
                     url: 'https://www.linkedin.com/in/yanfernandes130593/',
+                    type: 'linkedin'
+                }
+            ]
+        }
+    }
+    ,
+    {
+        title: '',
+        tags:[],
+        description: '',
+        speaker: {
+            name: 'Brian Lagunas',
+            avatar: '../../../assets/img/speakers/brian.png',
+            bio: "Works at Infragistics | Owner of Prism | Microsoft MVP | Xamarin MVP | Speaker | Trainer | Pluralsight Author",
+            position: 'Infragistics',
+            social: [
+                {
+                    url: 'https://github.com/brianlagunas',
+                    type: 'github'
+                },
+                {
+                    url: 'https://twitter.com/brianlagunas',
+                    type: 'twitter'
+                }
+            ]
+        }
+    }
+    ,
+    {
+        title: '',
+        tags:[],
+        description: '',
+        speaker: {
+            name: 'Dan Siegel',
+            avatar: '../../../assets/img/speakers/dan.png',
+            bio: "Dan is a Microsoft MVP, long time OSS maintainer, consultant and founder of the Xamarin Developer Summit #XamDevSummit. A passion for innovation and problem solving leads him to deliver leading solutions like #PrismLib and the Mobile.BuildTools.  A long time tech junkie, Dan has a firm belief that you should never stop learning and always be humble enough to remember you will never know everything. He has worked with clients small and large always driving innovation and helped transform many developers into constant learners. When he's not busy coding you can find him somewhere in nature, scuba diving, hiking, generally decompressing anywhere cell phones stop working.",
+            position: 'AvantiPoint',
+            social: [
+                {
+                    url: 'https://github.com/dansiegel',
+                    type: 'github'
+                },
+                {
+                    url: 'https://twitter.com/DanJSiegel',
+                    type: 'twitter'
+                },
+                {
+                    url: 'https://linkedin.com/in/dansiegel',
                     type: 'linkedin'
                 }
             ]
