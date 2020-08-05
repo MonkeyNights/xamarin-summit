@@ -1,8 +1,8 @@
 export const TALKS20 = [
     {
-        title: '',
+        title: 'Acessando recursos de plataforma especifica pelo projeto .NetStandard',
         tags:[],
-        description: '',
+        description: 'Com a velocidade com que o time da Xamarin vem adicionando novas funcionalidades e correção de bugs, muitos dos CustomRenderers e código para APIs nativa acabam se tornando desnecessários em nossos projetos. Porém nem sempre é fácil remover esse código do nosso projeto e utilizar o que foi implementado pelo time da Xamarin. Nesta palestra você vai ver uma abordagem, que permite criar CustomRenderers e acessar APIs de plataforma nativa de uma maneira mais desacoplada e que permite fácil reutilização em outros projetos.',
         speaker: {
             name: 'Pedro Jesus',
             avatar: '../../../assets/img/speakers/pedro.jpg',
@@ -22,9 +22,9 @@ export const TALKS20 = [
         }
     },
     {
-        title: '',
+        title: 'The art of binding an iOS/Android library',
         tags:[],
-        description: '',
+        description: 'Vamos explorar como incorporar bibliotecas desenvolvidas em Objective-C, Swift, Java e Kotlin, em nossos projetos em Xamarin. Também analisaremos um estudo de caso: um SDK de autenticação biométrica disponível em .framework para iOS e em .AAR/JAR para Android que com binding libraries ficou disponível em Xamarin',
         speaker: {
             name: 'Diego Bonilla',
             avatar: '../../../assets/img/speakers/diego.jpg',
@@ -47,9 +47,9 @@ export const TALKS20 = [
         }
     },
     {
-        title: '',
+        title: 'Mastering security in Xamarin apps',
         tags:[],
-        description: '',
+        description: 'Crafting secure software solutions is a team effort, and mobile apps are not the exception. In this session we will explore best practices, tips and tricks that will take your app to the next level! Just remember: You dont need to be an expert to make an app secure.',
         speaker: {
             name: 'Nicolas Milcoff',
             avatar: '../../../assets/img/speakers/nico.png',
@@ -73,9 +73,9 @@ export const TALKS20 = [
     }
     ,
     {
-        title: '',
+        title: 'Desenvolvendo qualquer interface mobile com Xamarin.Forms',
         tags:[],
-        description: '',
+        description: 'Trabalhar com uma plataforma de desenvolvimento mobile multiplataforma é fantástico. Desenvolvemos mais rápido e nosso código é compartilhado com todas as plataformas que estamos suportando. Mas apenas isso não adianta se não tivermos esse mesmo poder na hora de desenvolver as telas. E então.. o Xamarin.Forms é tão poderoso assim? Ele é um framework de abstração de UI, não possui todos os componentes visuais que existem nas guidelines do Android e iOS. Mas isso não significa que estamos limitados ou que não conseguiremos desenvolver algum tipo de interface. Nessa talk vamos falar sobre o desenvolvimento de algumas telas utilizando como referência alguns aplicativos renomados. Vamos olhar algumas telas e componentes e discutir sobre suas implementações, e é claro, ver como podemos fazer isso com Xamarin.Forms.',
         speaker: {
             name: 'Ione Souza Junior',
             avatar: '../../../assets/img/speakers/ione.jpg',
@@ -99,9 +99,9 @@ export const TALKS20 = [
     }
     ,
     {
-        title: '',
+        title: 'Creating Xamarin.Forms UIs in C#',
         tags:[],
-        description: '',
+        description: 'Many developers use XAML to create UIs in Xamarin.Forms, but did you know that everything you can do in XAML can be done in C#? Microsofts recent announcement of .NET MAUI has also promoted C# as the way to build our apps in the future using the MVU architecture. Join me as we discuss the benefits of C# vs XAML, learn how to create our UIs in C#, and explore new exciting frameworks like C# Markup and MVU in .NET MAUI that make creating mobile apps even easier!',
         speaker: {
             name: 'Brandon Minnick',
             avatar: '../../../assets/img/speakers/brandon.png',
@@ -125,9 +125,9 @@ export const TALKS20 = [
     }
     ,
     {
-        title: '',
+        title: 'Plugins e Controles para Xamarin.Forms ',
         tags:[],
-        description: '',
+        description: 'Xamarin.Forms é incrível, mas que tal deixa-lo melhor ? Vamos conhecer alguns Plugins e controles que podem te ajudar a melhorar o seu APP além de facilitar o desenvolvimento do mesmo :D',
         speaker: {
             name: 'Thiago Bertuzzi',
             avatar: '../../../assets/img/speakers/bertuzzi.png',
@@ -156,9 +156,9 @@ export const TALKS20 = [
     }
     ,
     {
-        title: '',
+        title: 'Getting Started with Xamarin.Forms Shapes',
         tags:[],
-        description: '',
+        description: 'As part of Xamarin.Forms 4.7 the brand new feature “Shapes” was introduced allowing a new and infinite way to create lovely and awesome UI components, lets get deeper and discover all the new possibillities that we have with this awesome feature.',
         speaker: {
             name: 'Alejandro Ruiz',
             avatar: '../../../assets/img/speakers/alejandro.jpg',
@@ -182,9 +182,9 @@ export const TALKS20 = [
     }
     ,
     {
-        title: '',
+        title: 'Clear - Quebrando paradigmas com xamarin',
         tags:[],
-        description: '',
+        description: 'Explicar os motivadores do novo produto da Clear Corretora e compartilhar experiências das maiores dificuldades encontradas e sucessos durante a entrega.',
         speaker: {
             name: 'Yan Ariel Fernandes de Souza',
             avatar: '../../../assets/img/speakers/yan.png',
@@ -200,9 +200,9 @@ export const TALKS20 = [
     }
     ,
     {
-        title: '',
+        title: 'Xamarin.Forms Navigation Done Right with Prism',
         tags:[],
-        description: '',
+        description: "One of the most complicated apsects of writing an MVVM based Xamarin.Forms application is navigation. Not only is navigation specific to a Page instance, but each Page can have it's own modal and non-modal navigation stacks. On top of that, the INavigation interface has a PushAsync which can only be used in a NavigationPage. If it's not used in a NavigationPage, an exception is thrown. PushModalAsync can be used with any Page, but provides no hardware mechanism to go back on iOS which traps your users. Start throwing in MasterDetailPages, TabbedPages, or even TabbedPages with nested NavigationPages and things start to get pretty crazy.  Now imagine trying to manage all those complexities from within a ViewModel where you have no reference or knowledge of the current Page or the target Page. Join Brian Lagunas in this deep dive session on using the navigation features of Prism for Xamarin.Forms to simplify the navigation code in your ViewModels to one line of code. You'll not only learn how to navigate from one page to another, but you'll learn how to pass parameters, cancel navigation, clean up your ViewModels, respond to the Sleep and Resume application lifecycle events, deep link into your application, and much more.",
         speaker: {
             name: 'Brian Lagunas',
             avatar: '../../../assets/img/speakers/brian.png',
@@ -222,9 +222,9 @@ export const TALKS20 = [
     }
     ,
     {
-        title: '',
+        title: 'Getting Started with Prism for Xamarin.Forms',
         tags:[],
-        description: '',
+        description: "You've probably heard about Prism for Xamarin.Forms, but maybe you weren't sure how to get started. In this talk we'll look at how you can get started building apps with Prism for Xamarin.Forms. With Prism 8 in preview and coming later this year, we'll look at some differences between Prism 7 and Prism 8 and talk about how this will help you build even better apps!",
         speaker: {
             name: 'Dan Siegel',
             avatar: '../../../assets/img/speakers/dan.png',
@@ -248,9 +248,9 @@ export const TALKS20 = [
     }
     ,
     {
-        title: '',
+        title: 'Criando seu app de reconhecimento facial com Xamarin.Forms e Cognitive Services ',
         tags:[],
-        description: '',
+        description: 'Cada dia que passa as tecnologias de IA tem crescido e se tornado fundamental na nossa sociedade. Um bom exemplo disto é o reconhecimento facial que está sendo utilizado para identificar pessoas, expressões e ajudar na segurança. Nesta palestra veremos como podemos utilizar reconhecimento facial com Xamarin.Forms de forma simples!  ',
         speaker: {
             name: 'Robson S Amorim',
             avatar: '../../../assets/img/speakers/rob.jpg',
@@ -273,9 +273,9 @@ export const TALKS20 = [
         }
     },
     {
-        title: '',
+        title: 'Xamarin.Forms and Surface Duo',
         tags:[],
-        description: '',
+        description: "Excited about the new Surface Duo? The Xamarin.Forms Duo SDK provides an exciting set of controls that you can use to seamlessly adapt your app to a Duo device. Join me, and let's all take a look at this much anticipated form factor and see how you can easily make your app Surface Duo ready.",
         speaker: {
             name: 'Shane Neuville',
             avatar: '../../../assets/img/speakers/shane.png',
@@ -294,9 +294,9 @@ export const TALKS20 = [
         }
     },
     {
-        title: '',
+        title: "What's New in Xamarin.Forms and Visual Studio?",
         tags:[],
-        description: '',
+        description: "We are always shipping updates to Xamarin and the Xamarin developer experience. Come join Maddy Leger and Jake Kirsch, Program Managers on the Xamarin team, as they share some of the latest new features in Xamarin.Forms and Visual Studio!",
         speaker: {
             name: 'Maddy Leger',
             avatar: '../../../assets/img/speakers/maddy.jpg',
@@ -316,9 +316,9 @@ export const TALKS20 = [
     }
     ,
     {
-        title: '',
+        title: 'WinUI 3: desenvolvendo experiências nativas para Windows',
         tags:[],
-        description: '',
+        description: 'O WinUI 3 (Windows UI Library) é o framework de UX nativo para aplicativos Desktop do Windows e para UWP. Dê uma olhada no futuro do desenvolvimento para Windows, entendendo como a evolução da Plataforma Universal do Windows (UWP) habilitará novos cenários para seus aplicativos, juntamente com uma nova versão do Windows Community Toolkit, criando experiências imersivas com C ++ ou C# e .Net 5.',
         speaker: {
             name: 'Alexandre Chohfi',
             avatar: '../../../assets/img/speakers/chohfi.jpg',
