@@ -4,7 +4,7 @@ export const TALKS20 = [
         tags:[],
         description: '',
         speaker: {
-            name: 'Pedro Henrique de Souza Jesus',
+            name: 'Pedro Jesus',
             avatar: '../../../assets/img/speakers/pedro.jpg',
             bio: 'Sou desenvolvedor C#, focado em fazer aplicativos móveis usando Xamarin, na ArcTouch❣ No tempo livre gosto de contribuir com projetos Open Source, atualmente meus maiores esforços são direcionados ao Xamarin.Forms e Xamarin.Essentials, também gero conteúdo em streaming, em artigos e em vídeos.',
             position: ' Engenheiro de Software C# @ ArcTouch',
@@ -242,6 +242,96 @@ export const TALKS20 = [
                 {
                     url: 'https://linkedin.com/in/dansiegel',
                     type: 'linkedin'
+                }
+            ]
+        }
+    }
+    ,
+    {
+        title: '',
+        tags:[],
+        description: '',
+        speaker: {
+            name: 'Robson S Amorim',
+            avatar: '../../../assets/img/speakers/rob.jpg',
+            bio: "Desenvolvedor na Lambda3. Co-organizador do @High5Devs. Adepto de agilidade no desenvolvimento de software. Gosta de contribuir como a comunidade com posts, podcasts, palestras sempre buscando o empoderamento de pessoas. Formado em sistemas de informação pela UNIP em 2012. Na busca de novos conhecimentos e troca de experiências!",
+            position: 'Lambda3',
+            social: [
+                {
+                    url: 'https://github.com/amorimrob',
+                    type: 'github'
+                },
+                {
+                    url: 'https://twitter.com/AmorimRob',
+                    type: 'twitter'
+                },
+                {
+                    url: 'https://linkedin.com/in/dansiegel',
+                    type: 'linkedin'
+                }
+            ]
+        }
+    },
+    {
+        title: '',
+        tags:[],
+        description: '',
+        speaker: {
+            name: 'Shane Neuville',
+            avatar: '../../../assets/img/speakers/shane.png',
+            bio: "Shane Neuville is a Senior Software Engineer for Xamarin.Forms at Microsoft. He has been a .NET developer since 2001. He's currently working on the glorious Shell, the mind blowing Duo, and the much anticipated .NET MAUI. In his spare time, he builds wearable costumes with his wife, walks the cats, watching turtles, or is streaming to [Twitch](https://www.twitch.tv/xamarinformsteam/).",
+            position: 'Microsoft',
+            social: [
+                {
+                    url: 'https://github.com/pureween',
+                    type: 'github'
+                },
+                {
+                    url: 'https://twitter.com/pureween',
+                    type: 'twitter'
+                }
+            ]
+        }
+    },
+    {
+        title: '',
+        tags:[],
+        description: '',
+        speaker: {
+            name: 'Maddy Leger',
+            avatar: '../../../assets/img/speakers/maddy.jpg',
+            bio: "Program Manager for Xamarin",
+            position: 'Microsoft',
+            social: [
+                {
+                    url: 'https://github.com/maddyleger1',
+                    type: 'github'
+                },
+                {
+                    url: 'https://twitter.com/maddyleger1',
+                    type: 'twitter'
+                }
+            ]
+        }
+    }
+    ,
+    {
+        title: '',
+        tags:[],
+        description: '',
+        speaker: {
+            name: 'Alexandre Chohfi',
+            avatar: '../../../assets/img/speakers/chohfi.jpg',
+            bio: "Alexandre Chohfi é Senior Software Developer Engineer na Microsoft focado em desenvolvimento para Windows. Trabalhou como desenvolvedor de jogos e é ex-MVP da Microsoft em Windows Platform Development. Ele apresentou em centenas de eventos em todo o Brasil, como TechEd Brasil, Campus Party, The Developers Conference São Paulo, QCon Rio e QCon São Paulo. Trabalhando na Microsoft, ele também se apresentou internacionalmente na Índia, Taiwan e Indonésia, para o Insider Dev Tour.",
+            position: 'Microsoft',
+            social: [
+                {
+                    url: 'https://github.com/azchohfi',
+                    type: 'github'
+                },
+                {
+                    url: 'https://twitter.com/AlexandreChohfi',
+                    type: 'twitter'
                 }
             ]
         }
