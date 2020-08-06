@@ -75,15 +75,57 @@ uk-position-relative header">
     </div>
   </div>
 </section>
+<!-- agenda -->
+<section class="uk-section uk-section-large">
+  <div class="uk-container uk-container-small">
+    <h1 class="custom-heading uk-text-center">Agenda</h1>
+    <p class="uk-text-large uk-text-center">
+      Programação e conteúdo do evento
+    </p>
+      <div *ngFor="let item of schedule" class="uk-margin-medium-bottom">
+        <div class="uk-card uk-card-small uk-card-default uk-margin-small-bottom">
+          <div class="uk-card-header">
+            <h4 class="hour">{{item.date}}</h4>
+          </div>
+        </div>
+        <!-- body -->
+        <div *ngFor="let session of item.sessions">
+          <div class="uk-card uk-card-small uk-card-default uk-margin-small-bottom">
+            <div class="uk-card-body">
+              <h4 class=""><span class="uk-badge uk-badge-ov">{{ session.time }}</span>
+                {{ session.title }}</h4>
+              <p class="uk-margin-remove uk-padding-remove uk-article-meta">{{ session.description}}</p>
+            </div>
+            <div class="uk-card-footer">
+              <div class="uk-grid-small uk-flex-middle" uk-grid>
+
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                  <div class="uk-width-auto">
+                    <img class="uk-border-circle" width="40" height="40" src="{{ session.speaker.avatar }}">
+                  </div>
+                  <div class="uk-width-expand">
+                    <p class="uk-margin-remove-bottom">{{ session.speaker.name }}</p>
+                    <p class="uk-text-meta uk-margin-remove-top"></p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- body -->
+      </div>
+  </div>
+</section>
+<!-- talks -->
 <section class="uk-section uk-article uk-section-small" style="background: #efefef;">
   <div class="uk-container uk-container">
     <h1 class="custom-heading uk-text-center">Palestras</h1>
-    <p class="uk-text-lead uk-margin-bottom uk-text-center">Cases do mundo real apresentados por palestrantes com experiências
-      práticas, que
-      realmente participaram das soluções apresentadas.</p>
+    <p class="uk-text-lead uk-margin-bottom uk-text-center">Cases do mundo real apresentados por palestrantes com
+      experiências práticas, que realmente participaram das soluções apresentadas.</p>
     <div class="uk-padding-small"></div>
     <div class="uk-flex uk-flex-center" uk-grid>
-      <div class="uk-width-1-1@m uk-width-1-1@s" *ngFor="let item of talks">
+      <div class="uk-width-1-1@m uk-width-1-1@s" *ngFor="let item of sessions">
         <div class="uk-card uk-card-default uk-card-hover uk-card-small uk-margin-small">
           <div class="uk-card-body">
             <h5 class="uk-card-title uk-margin-remove-bottom">
@@ -101,8 +143,7 @@ uk-position-relative header">
               <div class="uk-first-column">
                 <div class="uk-grid-small uk-flex-middle uk-grid" uk-grid="">
                   <div class="uk-width-auto uk-first-column">
-                    <img class="uk-border-circle" height="40" width="40" 
-                    src="{{ item.speaker.avatar }}">
+                    <img class="uk-border-circle" height="40" width="40" src="{{ item.speaker.avatar }}">
                   </div>
                   <div class="uk-width-expand">
                     <p _ngcontent-tlo-c1="" class="uk-margin-remove-bottom">
@@ -131,21 +172,21 @@ uk-position-relative header">
       destaques em suas áreas de atuação.
     </p>
     <div class="uk-flex uk-flex-center" uk-grid="masonry: true">
-      <div class="uk-width-1-4@m uk-width-1-1@s" *ngFor="let item of speakers">
+      <div class="uk-width-1-4@m uk-width-1-1@s" *ngFor="let speaker of speakers">
         <div class="uk-card uk-card-default uk-card-hover uk-card-small uk-margin-small">
           <div class="uk-card-media-top">
-            <img width="100%" src="{{ item.speaker.avatar }}" alt="{{ item.name }} @ {{ item.position }}" />
+            <img width="100%" src="{{ speaker.avatar }}" alt="{{ speaker.name }} @ {{ speaker.position }}" />
           </div>
           <div class="uk-card-body">
             <h5 class="uk-card-title uk-margin-remove-bottom">
-              {{ item.speaker.name }}
+              {{ speaker.name }}
             </h5>
             <span class="uk-text-meta dart-text uk-text-center">{{
-                  item.speaker.position
+                  speaker.position
                   }}</span>
           </div>
           <div class="uk-card-footer">
-            <span *ngFor="let social of item.speaker.social">
+            <span *ngFor="let social of speaker.social">
               <a *ngIf="social.url" href="{{ social.url }}" target="_blank">
                 <span *ngIf="social.type === 'linkedin'" class="dart-text uk-margin-right	" uk-icon="linkedin"></span>
                 <span *ngIf="social.type === 'facebook'" class="dart-text uk-margin-right	" uk-icon="facebook"></span>
