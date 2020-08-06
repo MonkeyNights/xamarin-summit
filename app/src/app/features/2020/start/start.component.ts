@@ -11,22 +11,42 @@ import { TALKS } from '../../talks/talks.data';
 export class StartComponent implements OnInit {
 
   photos = PHOTOS;
-  speakers = TALKS20.sort(function(a, b){
-    if(a.speaker.name < b.speaker.name) { return -1; }
-    if(a.speaker.name > b.speaker.name) { return 1; }
-    return 0;
-  });
+  speakers = []
+  sessions = []
+  schedule = []
 
-  talks = TALKS20.sort(function(a, b){
-    if(a.title < b.title) { return -1; }
-    if(a.title > b.title) { return 1; }
-    return 0;
-  });
+  constructor() {
 
-
-  constructor() { }
+  }
 
   ngOnInit() {
+    this.loadSpeakers(TALKS20);
+    this.loadSessions(TALKS20);
+    this.loadSchedule(TALKS20);
+  }
+
+  loadSchedule(source: any) {
+    source.forEach(day => {
+      if (day.date) {
+        this.schedule.push(day);
+      }
+    });
+  }
+
+  loadSessions(source: any) {
+    source.forEach(day => {
+      day.sessions.forEach(session => {
+        this.sessions.push(session);
+      });
+    });
+  }
+
+  loadSpeakers(source: any) {
+    source.forEach(day => {
+      day.sessions.forEach(session => {
+        this.speakers.push(session.speaker);
+      });
+    });
   }
 
 }
