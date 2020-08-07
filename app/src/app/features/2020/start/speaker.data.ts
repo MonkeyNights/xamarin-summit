@@ -45,6 +45,24 @@ export const TALKS20 = [
                         }
                     ]
                 }
+            },
+            {
+                time: "10:00 PM GMT-3",
+                title: 'Desenvolvendo App com Xamarin Nativo e MvvmCross',
+                tags: ["Android", "iOS", "Xamarin"],
+                description: 'Existem várias formas de desenvolver um app para dispositivos móveis e Xamarin Nativo com MvvmCross permite que se unam o desenvolvimento nativo de interfaces, o uso de C#/.NET e uma arquitetura limpa com bom reaproveitamento de código entre Android e iOS. Nessa talk vou mostrar como você pode utilizar essas ferramentas para construir o seu App.',
+                speaker: {
+                    name: 'Valerio Ferreira',
+                    avatar: 'https://pbs.twimg.com/profile_images/989511672669855744/lgbpFXEp_400x400.jpg',
+                    bio: "Desenvolvedor .NET and Mobile (Android, iOS e Xamarin) - Microsoft MVP",
+                    position: 'Microsoft MVP',
+                    social: [
+                        {
+                            url: 'https://twitter.com/_Sylix',
+                            type: 'twitter'
+                        }
+                    ]
+                }
             }
         ]
     }
@@ -103,7 +121,30 @@ export const TALKS20 = [
                         }
                     ]
                 }
-            }]
+            },
+          {
+                time: "10:00 PM GMT-3",
+                title: "What's New in Xamarin.Forms and Visual Studio?",
+                tags: ["Xamarin.Forms", "Visual Studio"],
+                description: "We are always shipping updates to Xamarin and the Xamarin developer experience. Come join Maddy Leger and Jake Kirsch, Program Managers on the Xamarin team, as they share some of the latest new features in Xamarin.Forms and Visual Studio!",
+                speaker: {
+                    name: 'Maddy Leger',
+                    avatar: '../../../assets/img/speakers/maddy.jpg',
+                    bio: "Program Manager for Xamarin",
+                    position: 'Microsoft',
+                    social: [
+                        {
+                            url: 'https://github.com/maddyleger1',
+                            type: 'github'
+                        },
+                        {
+                            url: 'https://twitter.com/maddyleger1',
+                            type: 'twitter'
+                        }
+                    ]
+                }
+            }
+        ]
     },
     {
         date: "Quarta-Feira, 12/08",
@@ -223,7 +264,6 @@ export const TALKS20 = [
                 }
             },
             {
-                date: "Quinta-Feira, 13/08",
                 time: "9:00 PM GMT-3",
                 title: 'Xamarin.Forms and Surface Duo',
                 tags: ["Xamarin.Forms", "Surface Duo", "UI"],
@@ -241,6 +281,32 @@ export const TALKS20 = [
                         {
                             url: 'https://twitter.com/pureween',
                             type: 'twitter'
+                        }
+                    ]
+                }
+            },
+          {
+                time: "10:00 PM GMT-3",
+                title: 'The art of binding an iOS/Android library',
+                tags: ["Xamarin", "Bindings", "iOS", "Android"],
+                description: 'Vamos explorar como incorporar bibliotecas desenvolvidas em Objective-C, Swift, Java e Kotlin, em nossos projetos em Xamarin. Também analisaremos um estudo de caso: um SDK de autenticação biométrica disponível em .framework para iOS e em .AAR/JAR para Android que com binding libraries ficou disponível em Xamarin',
+                speaker: {
+                    name: 'Diego Bonilla',
+                    avatar: '../../../assets/img/speakers/diego.jpg',
+                    bio: 'CEO & co-founder of Nareia, organizer of XamarinUY',
+                    position: 'CEO @ Nareia',
+                    social: [
+                        {
+                            url: 'https://twitter.com/dbonillanareia',
+                            type: 'twitter'
+                        },
+                        {
+                            url: 'https://github.com/dbonillanareia',
+                            type: 'github'
+                        },
+                        {
+                            url: 'https://www.linkedin.com/in/diebonilla/',
+                            type: 'linkedin'
                         }
                     ]
                 }
@@ -273,8 +339,26 @@ export const TALKS20 = [
                     ]
                 }
             },
-            {
+          {
                 time: "9:00 PM GMT-3",
+                title: 'Clear - Quebrando paradigmas com xamarin',
+                tags: ["Xamarin.Forms", "Case"],
+                description: 'Explicar os motivadores do novo produto da Clear Corretora e compartilhar experiências das maiores dificuldades encontradas e sucessos durante a entrega.',
+                speaker: {
+                    name: 'Yan Ariel Fernandes de Souza',
+                    avatar: '../../../assets/img/speakers/yan.png',
+                    bio: "Atuando a 9 anos em produtos de tecnologia e atualmente ajudando o brasileiro a investir melhor em renda variável",
+                    position: 'Product Manager @ XP Inc.',
+                    social: [
+                        {
+                            url: 'https://www.linkedin.com/in/yanfernandes130593/',
+                            type: 'linkedin'
+                        }
+                    ]
+                }
+            },
+            {
+                time: "10:00 PM GMT-3",
                 title: 'Getting Started with Xamarin.Forms Shapes',
                 tags: ["Xamarin.Forms", "Shapes"],
                 description: 'As part of Xamarin.Forms 4.7 the brand new feature “Shapes” was introduced allowing a new and infinite way to create lovely and awesome UI components, lets get deeper and discover all the new possibillities that we have with this awesome feature.',
@@ -295,81 +379,6 @@ export const TALKS20 = [
                         {
                             url: 'https://www.linkedin.com/in/alejandro-ruiz-533a0a88/',
                             type: 'linkedin'
-                        }
-                    ]
-                }
-            }
-        ]
-    }
-    ,
-    {
-        date: "",
-        sessions: [
-            {
-                date: "",
-                time: "",
-                title: 'The art of binding an iOS/Android library',
-                tags: ["Xamarin", "Bindings", "iOS", "Android"],
-                description: 'Vamos explorar como incorporar bibliotecas desenvolvidas em Objective-C, Swift, Java e Kotlin, em nossos projetos em Xamarin. Também analisaremos um estudo de caso: um SDK de autenticação biométrica disponível em .framework para iOS e em .AAR/JAR para Android que com binding libraries ficou disponível em Xamarin',
-                speaker: {
-                    name: 'Diego Bonilla',
-                    avatar: '../../../assets/img/speakers/diego.jpg',
-                    bio: 'CEO & co-founder of Nareia, organizer of XamarinUY',
-                    position: 'CEO @ Nareia',
-                    social: [
-                        {
-                            url: 'https://twitter.com/dbonillanareia',
-                            type: 'twitter'
-                        },
-                        {
-                            url: 'https://github.com/dbonillanareia',
-                            type: 'github'
-                        },
-                        {
-                            url: 'https://www.linkedin.com/in/diebonilla/',
-                            type: 'linkedin'
-                        }
-                    ]
-                }
-            },
-            {
-                date: "",
-                time: "",
-                title: 'Clear - Quebrando paradigmas com xamarin',
-                tags: ["Xamarin.Forms", "Case"],
-                description: 'Explicar os motivadores do novo produto da Clear Corretora e compartilhar experiências das maiores dificuldades encontradas e sucessos durante a entrega.',
-                speaker: {
-                    name: 'Yan Ariel Fernandes de Souza',
-                    avatar: '../../../assets/img/speakers/yan.png',
-                    bio: "Atuando a 9 anos em produtos de tecnologia e atualmente ajudando o brasileiro a investir melhor em renda variável",
-                    position: 'Product Manager @ XP Inc.',
-                    social: [
-                        {
-                            url: 'https://www.linkedin.com/in/yanfernandes130593/',
-                            type: 'linkedin'
-                        }
-                    ]
-                }
-            },
-            {
-                date: "",
-                time: "",
-                title: "What's New in Xamarin.Forms and Visual Studio?",
-                tags: ["Xamarin.Forms", "Visual Studio"],
-                description: "We are always shipping updates to Xamarin and the Xamarin developer experience. Come join Maddy Leger and Jake Kirsch, Program Managers on the Xamarin team, as they share some of the latest new features in Xamarin.Forms and Visual Studio!",
-                speaker: {
-                    name: 'Maddy Leger',
-                    avatar: '../../../assets/img/speakers/maddy.jpg',
-                    bio: "Program Manager for Xamarin",
-                    position: 'Microsoft',
-                    social: [
-                        {
-                            url: 'https://github.com/maddyleger1',
-                            type: 'github'
-                        },
-                        {
-                            url: 'https://twitter.com/maddyleger1',
-                            type: 'twitter'
                         }
                     ]
                 }
