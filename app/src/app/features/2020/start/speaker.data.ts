@@ -292,7 +292,7 @@ export const TALKS20 = [
                 description: 'Vamos explorar como incorporar bibliotecas desenvolvidas em Objective-C, Swift, Java e Kotlin, em nossos projetos em Xamarin. Também analisaremos um estudo de caso: um SDK de autenticação biométrica disponível em .framework para iOS e em .AAR/JAR para Android que com binding libraries ficou disponível em Xamarin',
                 speaker: {
                     name: 'Diego Bonilla',
-                    avatar: '../../../assets/img/speakers/diego.jpg',
+                    avatar: 'https://secure.gravatar.com/avatar/677ce9a8b53945325e9e36b0b2710f40?s=500.jpg',
                     bio: 'CEO & co-founder of Nareia, organizer of XamarinUY',
                     position: 'CEO @ Nareia',
                     social: [
