@@ -53,7 +53,7 @@ export const TALKS20 = [
                 description: 'Existem várias formas de desenvolver um app para dispositivos móveis e Xamarin Nativo com MvvmCross permite que se unam o desenvolvimento nativo de interfaces, o uso de C#/.NET e uma arquitetura limpa com bom reaproveitamento de código entre Android e iOS. Nessa talk vou mostrar como você pode utilizar essas ferramentas para construir o seu App.',
                 speaker: {
                     name: 'Valerio Ferreira',
-                    avatar: 'https://pbs.twimg.com/profile_images/989511672669855744/lgbpFXEp_400x400.jpg',
+                    avatar: '../../../assets/img/speakers/valerio.png',
                     bio: "Desenvolvedor .NET and Mobile (Android, iOS e Xamarin) - Microsoft MVP",
                     position: 'Microsoft MVP',
                     social: [
